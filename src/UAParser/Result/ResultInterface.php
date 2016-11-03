@@ -23,9 +23,19 @@ interface ResultInterface
     public function getDevice();
 
     /**
+     * @return EmailClientResultInterface
+     */
+    public function getEmailClient();
+
+    /**
+     * @return RenderingEngineResultInterface
+     */
+    public function getRenderingEngine();
+
+    /**
      * Extracts data from an array.
      *
      * @param array $data An array.
      */
-    public function fromArray();
+    public function fromArray($data);
 }
