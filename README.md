@@ -1,6 +1,4 @@
-# UAParser
-
-**UAParser** is a library which helps you to parse user agents and detect browser, operating system, device and more.
+# pdffiller-useragent-parser
 
 ## Basic Usage
 ```php
