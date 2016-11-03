@@ -43,6 +43,20 @@ interface EmailClientResultInterface
     public function getType();
 
     /**
+     * Returns true if email client is web
+     *
+     * @return bool
+     */
+    public function isWebmail();
+
+    /**
+     * Returns true if email client is desktop
+     *
+     * @return bool
+     */
+    public function isDesktop();
+
+    /**
      * Check the email client type.
      *
      * @param string $type Check if type is (webmail|desktop)
