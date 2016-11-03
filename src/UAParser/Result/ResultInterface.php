@@ -37,5 +37,5 @@ interface ResultInterface
      *
      * @param array $data An array.
      */
-    public function fromArray($data);
+    public function fromArray(array $data = []);
 }

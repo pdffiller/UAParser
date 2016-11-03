@@ -1,8 +1,6 @@
-# UAParser [![Build Status](https://secure.travis-ci.org/yzalis/UAParser.png)](http://travis-ci.org/yzalis/UAParser)
+# UAParser
 
 **UAParser** is a library which helps you to parse user agents and detect browser, operating system, device and more.
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/13b4b7d1-6c03-418b-8ac2-b5accbf3b67a/small.png)](https://insight.sensiolabs.com/projects/13b4b7d1-6c03-418b-8ac2-b5accbf3b67a)
 
 ## Basic Usage
 ```php
